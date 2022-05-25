@@ -15,10 +15,16 @@ tippy('#mail', {
 
 tippy('#call', {
     ...tippyOptions,
-    content: '+40761448791',
+    content: '+40 761 448 791',
 });
 
 tippy('#linkedin', {
     ...tippyOptions,
     content: 'www.linkedin.com/in/albu-andreea-raluca',
 });
+
+tippy('#github', {
+    ...tippyOptions,
+    content: 'github.com/aandreearaluca',
+});
+
