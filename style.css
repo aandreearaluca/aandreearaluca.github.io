@@ -116,7 +116,7 @@ nav a {
 }
 
 .section {
-    width: 500px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
@@ -135,6 +135,24 @@ nav a {
     font-weight: 600;
 }
 
-.section p {
+/* .section p {
     line-height: 10px;
+} */
+
+.half {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.half img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.project {
+    display: flex;
+}
+
+.right-half {
+    padding-left: 15px;
 }
