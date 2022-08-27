@@ -78,6 +78,8 @@ nav a {
     color: #433831;
     text-decoration: none;
     margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .avatar {
@@ -118,10 +120,13 @@ nav a {
 }
 
 .section {
-    width: 700px;
+    width: 100%;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .section .liniuta {
@@ -142,7 +147,7 @@ nav a {
 } */
 
 .half {
-    width: 50%;
+    flex: 1;
     margin-top: 20px;
 }
 
@@ -153,6 +158,8 @@ nav a {
 
 .project {
     display: flex;
+    flex-wrap: wrap;
+
 }
 
 .right-half {
@@ -161,4 +168,20 @@ nav a {
 
 iframe {
     margin-top: 20px;
+}
+
+@media only screen and (max-width: 1020px) {
+    .about-me {
+      width: 100%;
+      border-radius: 0;
+      padding: 20px 30px;
+    }
+  }
+
+@media only screen and (max-width: 500px) {
+    nav {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+    }
 }
