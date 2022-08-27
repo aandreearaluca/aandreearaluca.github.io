@@ -142,10 +142,6 @@ nav a {
     font-weight: 600;
 }
 
-/* .section p {
-    line-height: 10px;
-} */
-
 .half {
     flex: 1;
     margin-top: 20px;
@@ -154,16 +150,17 @@ nav a {
 .half img {
     width: 100%;
     border-radius: 15px;
+    min-width: 220px;
 }
 
 .project {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .right-half {
     padding-left: 15px;
+    min-width: 276px;
 }
 
 iframe {
